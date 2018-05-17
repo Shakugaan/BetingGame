@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Food
   - NPC
+  - NPC green
+  - NPC red
+  - NPC yellow
+  - NPC blue
   layers:
   - Default
   - TransparentFX
