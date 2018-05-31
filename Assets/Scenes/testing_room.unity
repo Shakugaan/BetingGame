@@ -270,7 +270,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 41318845}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: TakePointsP2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &41318845
@@ -1067,53 +1078,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 389790063}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &411526633
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2084
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1535.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 784.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114093791212534532, guid: 0819eadfdd0eb554bbee414f37284243,
-        type: 2}
-      propertyPath: myText
-      value: 
-      objectReference: {fileID: 258100200}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0819eadfdd0eb554bbee414f37284243, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &429854916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1105,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 429854916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1761.0579, y: 1021.96136, z: 760.9}
+  m_LocalPosition: {x: 1852.7, y: 1021.96136, z: 760.9}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 833599920}
@@ -1414,8 +1378,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1384132925}
+        m_MethodName: col1Change
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1534,7 +1498,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 469957387}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: AddPointsP2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &469957387
@@ -1644,7 +1619,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 470034665}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: TakePointsP1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &470034665
@@ -2806,7 +2792,6 @@ GameObject:
   - component: {fileID: 858373337}
   - component: {fileID: 858373336}
   - component: {fileID: 858373335}
-  - component: {fileID: 858373334}
   m_Layer: 5
   m_Name: Button UP Bet
   m_TagString: Untagged
@@ -2832,19 +2817,6 @@ RectTransform:
   m_AnchoredPosition: {x: 150, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &858373334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 858373332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86febc11b89c6274db6d34f6dfb40fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myText: {fileID: 0}
-  bet: 0
 --- !u!114 &858373335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2884,8 +2856,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: AddPointsP1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3378,12 +3350,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1038859636}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1065974841 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114093791212534532, guid: 0819eadfdd0eb554bbee414f37284243,
-    type: 2}
-  m_PrefabInternal: {fileID: 411526633}
-  m_Script: {fileID: 11500000, guid: 86febc11b89c6274db6d34f6dfb40fe4, type: 3}
 --- !u!1 &1109156087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3675,8 +3641,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1065974841}
-        m_MethodName: TakePoints
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: TakePointsP3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3942,8 +3908,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1065974841}
-        m_MethodName: AddPoints
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: AddPointsP3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4180,7 +4146,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1191978195}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132925}
+        m_MethodName: col4Change
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1191978195
@@ -4232,9 +4209,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8be0c75d3728d47aa48473de1241e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreP1: {fileID: 1373552705}
-  BetingP1: {fileID: 258100200}
-  ColP1: {fileID: 788008196}
+  ScoreP1: {fileID: 660706724}
+  BetingP1: {fileID: 2035694447}
+  ColP1: {fileID: 925108210}
+  ScoreP2: {fileID: 335767475}
+  BetingP2: {fileID: 1344530842}
+  ColP2: {fileID: 1475653004}
+  ScoreP3: {fileID: 1373552705}
+  BetingP3: {fileID: 258100200}
+  ColP3: {fileID: 788008196}
+  ScoreP4: {fileID: 1109156089}
+  BetingP4: {fileID: 1143471287}
+  ColP4: {fileID: 1515427913}
 --- !u!1 &1263776570
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,11 +4713,27 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1373552703}
---- !u!1 &1384132924 stripped
+--- !u!1 &1384132924
 GameObject:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1650805248883980, guid: 0819eadfdd0eb554bbee414f37284243,
     type: 2}
-  m_PrefabInternal: {fileID: 411526633}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1384132930}
+  - component: {fileID: 1384132929}
+  - component: {fileID: 1384132928}
+  - component: {fileID: 1384132927}
+  - component: {fileID: 1384132926}
+  - component: {fileID: 1384132925}
+  m_Layer: 0
+  m_Name: wq
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &1384132925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4743,8 +4745,100 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecb0682b38afde14db10cc3f5d62c91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Clr: {fileID: 496795632}
-  text: {fileID: 788008196}
+  col1: {fileID: 97943007}
+  col2: {fileID: 2076909127}
+  col3: {fileID: 496795632}
+  col4: {fileID: 1115429540}
+  text1: {fileID: 925108210}
+  text2: {fileID: 1475653004}
+  text3: {fileID: 788008196}
+  text4: {fileID: 1515427913}
+--- !u!114 &1384132926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384132924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362d23a0e443af749b7fe63124c929c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player1: {fileID: 2035694447}
+  Player2: {fileID: 1344530842}
+  Player3: {fileID: 258100200}
+  Player4: {fileID: 1143471287}
+  betP1: 0
+  betP2: 0
+  betP3: 0
+  betP4: 0
+--- !u!81 &1384132927
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 81184246527884904, guid: 0819eadfdd0eb554bbee414f37284243,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384132924}
+  m_Enabled: 1
+--- !u!124 &1384132928
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124536436887520844, guid: 0819eadfdd0eb554bbee414f37284243,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384132924}
+  m_Enabled: 1
+--- !u!20 &1384132929
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20418465948999158, guid: 0819eadfdd0eb554bbee414f37284243,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384132924}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 43.647766
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1384132930
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4896478378609202, guid: 0819eadfdd0eb554bbee414f37284243,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384132924}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2084, y: 1535.1, z: 784.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1425396557
 GameObject:
   m_ObjectHideFlags: 0
@@ -4991,7 +5085,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1497413320}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132925}
+        m_MethodName: col2Change
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1497413320
@@ -5362,7 +5467,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1865772889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: TakePointsP4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1865772889
@@ -5472,7 +5588,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1877876879}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1384132926}
+        m_MethodName: AddPointsP4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1877876879
@@ -6052,7 +6179,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4187663575091912, guid: f5ed78aca2a45de41bbff96d206a247a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 797.9
+      value: 746
       objectReference: {fileID: 0}
     - target: {fileID: 4187663575091912, guid: f5ed78aca2a45de41bbff96d206a247a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6167,7 +6294,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1384132925}
-        m_MethodName: ClrChange
+        m_MethodName: col3Change
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
